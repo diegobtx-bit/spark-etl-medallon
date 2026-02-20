@@ -26,7 +26,7 @@ def parse_arguments():
 # @section 2. Inicialización de SparkSession con soporte Hive
 # =============================================================================
 
-def create_spark_session(app_name="Proceso_Carga_Workload"):
+def create_spark_session(app_name="ProcesoLanding-FloresQuispe"):
     return SparkSession.builder \
         .appName(app_name) \
         .enableHiveSupport() \
